@@ -28,6 +28,7 @@ urlpatterns = [
     path('ads/', include('ads.urls')),  # Keep
     path('autos/', include('autos.urls')),
     path('cats/', include('cats.urls')),
+    path('stars/', include('stars.urls')),
 
 ]
 
